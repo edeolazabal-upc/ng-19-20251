@@ -1,1 +1,21 @@
-<p>registrar works!</p>
+<h2>Registrar Producción</h2>
+
+<form (ngSubmit)="registrar()">
+  <mat-form-field appearance="fill" class="form-campo">
+    <mat-label>Mineral</mat-label>
+    <input matInput [(ngModel)]="produccion.mineral" name="mineral" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="form-campo">
+    <mat-label>Cantidad</mat-label>
+    <input matInput type="number" [(ngModel)]="produccion.cantidad" name="cantidad" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="fill" class="form-campo">
+    <mat-label>Ubicación</mat-label>
+    <input matInput [(ngModel)]="produccion.ubicacion" name="ubicacion" required>
+  </mat-form-field>
+
+  <button mat-raised-button color="primary" type="submit">Registrar</button>
+</form>
+
