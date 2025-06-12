@@ -1,0 +1,10 @@
+{
+    "produccion": [
+        {"id": 1, "mineral": "oro", "cantidad": 500.5, "ubicacion": "Yanacocha"},
+         {"id": 2, "mineral": "cobre", "cantidad": 1500.5, "ubicacion": "Toquepala"}
+    ],
+    "equipo": [
+        {"id": 1, "descripcion": "camion", "marca": "CaterPillar", "ubicacion": "Yanacocha"},
+         {"id": 2, "descripcion": "excavadora", "marca": "Komatsu", "ubicacion": "Toquepala"}
+    ]
+}
